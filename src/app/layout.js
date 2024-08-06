@@ -4,6 +4,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ThemeProvider } from "@material-tailwind/react";
+import FooterWithSocialLinks from "./(lib)/footer/footer";
+import DialogWithForm from "./(lib)/forms/formsignin";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,21 +17,24 @@ const inter = Inter({ subsets: ["latin"] });
 
 const links = [
   { name: "Home", href: "/" },
-  { name: "Products", href: "/components/products" },
-  { name: "About Us", href: "/components/about" },
-  { name: "Contact", href: "/components/contact" },
+  { name: "Products", href: "/products" },
+  { name: "About Us", href: "/about" },
+  { name: "Contact", href: "/contact" },
+  {name: "Buy Bike", href: "/buymotorcycle"},
+  {name:" Sell Bike", href: "/sellmotorcycle"}
 ];
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   return (
-    <html lang="en">
+    
+      <html lang="en">
       <body className={inter.className}>
-        <header className="flex text-center bg-gray-900 space-x-8 py-4">
+        <header className="flex text-center bg-gray-900 space-x-8 py-4 ">
           <h1 className="text-red-600 ml-2 font-serif text-2xl">
             MotorDealers
           </h1>
-          <ul className="flex space-x-5 text-white px-8">
+          <ul className="flex space-x-8 mt-2 text-white px-8 relative left-52">
             {links.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -43,12 +49,16 @@ export default function RootLayout({ children }) {
               );
             })}
           </ul>
+          <div className="border border-2-white relative left-96">
+          <DialogWithForm/>
+          </div>
+          
         </header>
         {children}
-        <footer className="bg-gray-800 text-white py-4 text-center">
-          <p>© 2024 Motorcycle Marketplace. All rights reserved.</p>
-        </footer>
+        <FooterWithSocialLinks/>
       </body>
     </html>
+    
+    
   );
 }

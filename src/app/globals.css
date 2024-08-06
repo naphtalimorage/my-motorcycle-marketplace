@@ -18,3 +18,17 @@ body {
     text-wrap: balance;
   }
 }
+
+input:focus {
+  border-color: #4CAF50; 
+  outline: none; 
+  border-width: 3px; 
+  border-style: solid;
+}
+
+select:focus {
+  border-color: #4CAF50; 
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
+}

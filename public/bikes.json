@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Yamaha YZF-R1",
+    "type": "Sport",
+    "engineCapacity": "1000cc",
+    "speedLimit": "180 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "17L",
+    "price": 15000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Harley-Davidson Sportster",
+    "type": "Cruiser",
+    "engineCapacity": "1200cc",
+    "speedLimit": "140 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "20L",
+    "price": 18000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Honda Gold Wing",
+    "type": "Touring",
+    "engineCapacity": "1300cc",
+    "speedLimit": "160 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "22L",
+    "price": 20000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Kawasaki Ninja H2",
+    "type": "Sport",
+    "engineCapacity": "998cc",
+    "speedLimit": "209 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "17L",
+    "price": 29000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "BMW S1000RR",
+    "type": "Sport",
+    "engineCapacity": "999cc",
+    "speedLimit": "188 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "16.5L",
+    "price": 17000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "Ducati Panigale V4",
+    "type": "Sport",
+    "engineCapacity": "1103cc",
+    "speedLimit": "190 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "16L",
+    "price": 25000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "name": "Triumph Bonneville T120",
+    "type": "Classic",
+    "engineCapacity": "1200cc",
+    "speedLimit": "115 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "14.5L",
+    "price": 12000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "Suzuki Hayabusa",
+    "type": "Sport",
+    "engineCapacity": "1340cc",
+    "speedLimit": "186 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "20L",
+    "price": 15000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "name": "Indian Scout",
+    "type": "Cruiser",
+    "engineCapacity": "1133cc",
+    "speedLimit": "115 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "12.5L",
+    "price": 14000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "name": "Aprilia RSV4",
+    "type": "Sport",
+    "engineCapacity": "1077cc",
+    "speedLimit": "186 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "18.5L",
+    "price": 20000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "name": "KTM 1290 Super Duke R",
+    "type": "Naked",
+    "engineCapacity": "1301cc",
+    "speedLimit": "186 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "16L",
+    "price": 19000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 12,
+    "name": "Moto Guzzi V7",
+    "type": "Classic",
+    "engineCapacity": "744cc",
+    "speedLimit": "110 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "21L",
+    "price": 10000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 13,
+    "name": "Royal Enfield Interceptor 650",
+    "type": "Classic",
+    "engineCapacity": "648cc",
+    "speedLimit": "105 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "13.7L",
+    "price": 8000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 14,
+    "name": "Yamaha MT-09",
+    "type": "Naked",
+    "engineCapacity": "847cc",
+    "speedLimit": "140 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "14L",
+    "price": 9000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 15,
+    "name": "BMW R1250GS",
+    "type": "Adventure",
+    "engineCapacity": "1254cc",
+    "speedLimit": "130 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "20L",
+    "price": 18000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 16,
+    "name": "Honda CBR600RR",
+    "type": "Sport",
+    "engineCapacity": "599cc",
+    "speedLimit": "165 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "18L",
+    "price": 12000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 17,
+    "name": "Kawasaki Versys 1000",
+    "type": "Adventure",
+    "engineCapacity": "1043cc",
+    "speedLimit": "140 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "21L",
+    "price": 16000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 18,
+    "name": "Ducati Multistrada V4",
+    "type": "Adventure",
+    "engineCapacity": "1158cc",
+    "speedLimit": "155 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "22L",
+    "price": 23000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 19,
+    "name": "Triumph Street Triple",
+    "type": "Naked",
+    "engineCapacity": "765cc",
+    "speedLimit": "150 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "17L",
+    "price": 11000,
+    "photo": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 20,
+    "name": "Harley-Davidson Fat Boy",
+    "type": "Cruiser",
+    "engineCapacity": "1868cc",
+    "speedLimit": "110 mph",
+    "fuelType": "Petrol",
+    "fuelCapacity": "19L",
+    "price": 20000,
+    "photo": "https://via.placeholder.com/150"
+  }
+]
